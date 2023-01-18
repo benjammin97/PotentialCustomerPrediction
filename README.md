@@ -5,4 +5,4 @@
 ## [Code](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
 ## [Training Dataset](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_policies_2020.csv)
 ## [Test Dataset](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_potential_customers_2022.csv)
-## [Outcomes]()
+## [Outcomes](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/Outcomes)
