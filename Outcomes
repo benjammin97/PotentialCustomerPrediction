@@ -1,2 +1,2 @@
-##### Outcomes
-* Decision tree and kmeans methods were implemented as well as several parameters concurrently tested to determine the optimal solution. Company saved an average of $200 per customer by only choosing customers who are predicted to have 0 or 1 claim.
+Outcomes
+Decision tree and kmeans methods were implemented as well as several parameters concurrently tested to determine the optimal solution. Company saved an average of $200 per customer by only choosing customers who are predicted to have 0 or 1 claim.
