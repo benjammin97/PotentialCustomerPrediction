@@ -11,19 +11,17 @@ The company has asked the data analyst to determine which customers to take on f
 * Use of 75/25 train-test split to evaluate the performance of the supervised machine learning model.
 * Tuning parameters and tuning hyperparameters during exploratory analysis to find the optimal model, paramater, and hyperparamater combination.
 ## Preparing the Data
-* Data was prepared in a similar manner to the Policyholder Identification project other than the population of date values and hot-encoding the data.
+* Data was prepared in a similar manner to the Policyholder Identification project other than the population of date values, data binning for the age column, and hot-encoding the data. If you want to see the full code click [here](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
 ## Implementing Machine Learning Clustering Models
-If you want to see the technical details, you can check out the full code [here](https://github.com/benjammin97/PolicyholderIdentification/blob/main/CategorizingPolicyholders.py).
-I had a few goals in mind when I implemented the clustering models:
-* Find the optimal clustering model between k-means and dbscan by iterating through all possible paramaters that made logical sense on both models.
-* Determine the correct model using the appropriate accuracy metrics.
-* Determine the correct number of clusters using the shilouette scores and inertia values.  
+
+I had a few goals in mind when I implemented the Supervised Machine Learning models:
+* Find the optimal clustering model between knn and decision tree by iterating through multiple paramaters and hyperparameters on both models.
+* Determine the correct model using the appropriate accuracy metrics, in this case mean absolute error for regression and F1 for classification. 
   
 I was able to do this, and the results were insightful.
 
 ## Key Takeaways
-* K-means is the most effective clustering model
-* There are three primary risk levels for auto-insurance policyholders.
+
 
 
 ## [Problem Statement](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/MSC550%20Fall%202021%20Final%20(6).pdf)
