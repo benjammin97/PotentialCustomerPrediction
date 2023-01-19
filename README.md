@@ -12,7 +12,7 @@ The company has asked the data analyst to determine which customers to take on f
 * Tuning parameters and tuning hyperparameters during exploratory analysis to find the optimal model, paramater, and hyperparamater combination.
 ## Preparing the Data
 * Data was prepared in a similar manner to the Policyholder Identification project other than the population of date values, data binning for the age column, and hot-encoding the data. If you want to see the full code click [here](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
-## Implementing Machine Learning Clustering Models
+## Implementing Machine Learning Classification and Regression Models
 
 I had a few goals in mind when I implemented the Supervised Machine Learning models:
 * Find the optimal clustering model between knn and decision tree by iterating through multiple paramaters and hyperparameters on both models.
