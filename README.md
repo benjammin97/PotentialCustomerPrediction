@@ -20,10 +20,6 @@ I had a few goals in mind when I implemented the Supervised Machine Learning mod
   
 I was able to do this, and the results were insightful.
 
-## Key Takeaways
-
-
-
 ## [Problem Statement](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/MSC550%20Fall%202021%20Final%20(6).pdf)
 ## [Findings & Presentation](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/Classifying%20Policyholders%20with%20Supervised%20Learning.pdf)
 ## [Code](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
