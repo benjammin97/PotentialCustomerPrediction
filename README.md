@@ -11,15 +11,17 @@ The company has asked the data analyst to determine which customers to take on f
 * Use of 75/25 train-test split to evaluate the performance of the supervised machine learning model.
 * Tuning parameters and tuning hyperparameters during exploratory analysis to find the optimal model, paramater, and hyperparamater combination.
 ## Preparing the Data
-* Data was prepared in a similar manner to the Policyholder Identification project other than the population of date values, data binning for the age column, and hot-encoding the data. If you want to see the full code click [here](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
+* Data was prepared in a similar manner to the Policyholder Identification project other than the population of date values, data binning for the age column, and one-hot-encoding the data. Populating the data from the date of birth reduced data loss (num of rows) by approximately 42% in both the training dataset and test dataset. If you want to see the full code click [here](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
 ## Implementing Machine Learning Classification and Regression Models
 
 I had a few goals in mind when I implemented the Supervised Machine Learning models:
 * Find the optimal clustering model between knn and decision tree by iterating through multiple paramaters and hyperparameters on both models.
 * Determine the correct model using the appropriate accuracy metrics, in this case mean absolute error for regression and F1 for classification. 
   
-I was able to do this, and the results were insightful.
-
+## Balancing Methods
+Oversampling and undersampling were both tested for the classification portion of the code to try to improve overall accuracy for the F1 score. The oversampling method won out by having a higher F1 score than undersampling and by fitting the project parameters better as will be explained in the next sentence. Only oversampling was used for the regression portion of the code because the problem outline stated that the worst possible outcome would be to underestimate claims' cost.
+## Key Takeaways
+* 
 ## [Problem Statement](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/MSC550%20Fall%202021%20Final%20(6).pdf)
 ## [Findings & Presentation](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/Classifying%20Policyholders%20with%20Supervised%20Learning.pdf)
 ## [Code](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
