@@ -20,8 +20,7 @@ I had a few goals in mind when I implemented the Supervised Machine Learning mod
   
 ## Balancing Methods
 Oversampling and undersampling were both tested for the classification portion of the code to try to improve overall accuracy for the F1 score. The oversampling method won out by having a higher F1 score than undersampling and by fitting the project parameters better as will be explained in the next sentence. Only oversampling was used for the regression portion of the code because the problem outline stated that the worst possible outcome would be to underestimate claims' cost.
-## Key Takeaways
-* 
+
 ## [Problem Statement](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/MSC550%20Fall%202021%20Final%20(6).pdf)
 ## [Findings & Presentation](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/Classifying%20Policyholders%20with%20Supervised%20Learning.pdf)
 ## [Code](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
