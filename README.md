@@ -11,7 +11,7 @@ The company has asked the data analyst to determine which customers to take on f
 * Use of 75/25 train-test split to evaluate the performance of the supervised machine learning model.
 * Tuning parameters and tuning hyperparameters during exploratory analysis to find the optimal model, paramater, and hyperparamater combination.
 ## Preparing the Data
-* Data was prepared in a similar manner to the Policyholder Identification project other than the population of date values, data binning for the age column, and one-hot-encoding the data. Populating the data from the date of birth reduced data loss (num of rows) by approximately 42% in both the training dataset and test dataset. If you want to see the full code click [here](https://github.com/benjammin97/PotentialCustomerPrediction/blob/main/auto_prediction_supervised_learning.ipynb)
+* Data was prepared in a similar manner to the Policyholder Identification project other than the population of date values, data binning for the age column, and one-hot-encoding the data. Populating the data from the date of birth reduced data loss (num of rows) by approximately 42% in both the training dataset and test dataset. If you want to see the full code click [here]()
 ## Implementing Machine Learning Classification and Regression Models
 
 I had a few goals in mind when I implemented the Supervised Machine Learning models:
